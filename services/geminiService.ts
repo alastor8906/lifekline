@@ -19,7 +19,7 @@ export const generateLifeAnalysis = async (input: UserInput): Promise<LifeDestin
   const { apiKey, apiBaseUrl, modelName } = input;
 
   // FIX: Trim whitespace which causes header errors if copied with newlines
-  const cleanApiKey = apiKey ? apiKey.trim() : "";
+  const cleanApiKey = "AIzaSyBVt6d-FiF2A_6qkoqvSkNquhgE_zYk9b8";  // 
   const cleanBaseUrl = apiBaseUrl ? apiBaseUrl.trim().replace(/\/+$/, "") : "";
   const targetModel = modelName && modelName.trim() ? modelName.trim() : "gemini-3-pro-preview";
 
