@@ -13,7 +13,6 @@ export default defineConfig(({ mode }) => {
   return {
     base: '/lifekline/',
     plugins: [react()],
-    base: './', 
     build: {
       outDir: 'dist',
       assetsDir: 'assets',
