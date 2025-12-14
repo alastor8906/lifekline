@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => {
   const apiKey = env.API_KEY || env.VITE_API_KEY;
 
   return {
+    base: '/lifekline/',
     plugins: [react()],
     base: './', 
     build: {
